@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { FaHandPointRight } from "react-icons/fa";
 
-const error = ({ error, reset }) => {
+const Error = ({ error, reset }) => {
   //eslint-disable-next-line
   useEffect(() => {
     console.log(error);
@@ -24,4 +24,4 @@ const error = ({ error, reset }) => {
   );
 };
 
-export default error;
+export default Error;
